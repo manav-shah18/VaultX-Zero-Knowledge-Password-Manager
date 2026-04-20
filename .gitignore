@@ -1,17 +1,15 @@
-# Environment & secrets
 .env
 venv/
+.venv/
 __pycache__/
 *.pyc
 *.pyo
-
-# Database exports
+*.pyd
 exports/
-
-# VS Code
 .vscode/
-
-# Python
 *.egg-info/
 dist/
 build/
+.DS_Store
+Thumbs.db
+query
