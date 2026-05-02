@@ -1,12 +1,25 @@
 # VaultX — Zero-Knowledge Password Manager
 
 A secure, zero-knowledge password manager built from scratch using Python,
-Flask, and MongoDB. Developed as a Cyber Security mini project at NMIMS
-School of Technology Management & Engineering, Navi Mumbai.
+Flask, and MongoDB.
 
 > **Zero-knowledge** means the server never sees your passwords — not during
 > storage, not during login, not ever. Even a complete database breach
 > reveals nothing without the master password.
+
+---
+
+## About
+
+Built as an academic side project to dive deep into applied cryptography
+and real-world security architecture. This project goes beyond coursework —
+exploring how industry-grade security systems are actually built, from
+hybrid encryption and memory-hard hashing to intrusion detection and
+breach monitoring.
+
+The goal was to build something that works the way real password managers
+like Bitwarden and 1Password work under the hood — where even the
+developers cannot read your passwords.
 
 ---
 
@@ -177,7 +190,7 @@ Open your browser at `http://127.0.0.1:5000`
 This project has a companion attack simulator that demonstrates all
 security defenses working in real time.
 
-**Repository:** [VaultX Attack Simulator](https://github.com/manav-shah18/vaultx-attack-simulator)
+**Repository:** [VaultX Attack Simulator](https://github.com/manav-shah18/VaultX-Attack-Simulator)
 
 The simulator runs 6 attacks against VaultX and shows each one being
 blocked or detected live on a Blood Red and Black dashboard.
