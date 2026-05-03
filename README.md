@@ -196,15 +196,3 @@ The simulator runs 6 attacks against VaultX and shows each one being
 blocked or detected live on a Blood Red and Black dashboard.
 
 ---
-
-## Academic Context
-
-This project was built as a mini project for the subject **Cyber Security**
-in Semester VI of B.Tech Computer Engineering at NMIMS STME, Navi Mumbai.
-It demonstrates practical implementation of:
-- Zero-knowledge architecture
-- Hybrid cryptography (AES + RSA)
-- Memory-hard password hashing (Argon2id)
-- Honey trap intrusion detection
-- K-anonymity breach detection (HaveIBeenPwned)
-```
